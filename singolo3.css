@@ -1,0 +1,18 @@
+html {
+    width: 1020px;
+    margin: auto;
+    font-family: 'Lato', sans-serif;    
+}
+main {
+    width: 1020px;
+    height: 648px;
+    background-color: #f06c64;
+    border-bottom: 6px solid #ea676b;
+}
+
+
+footer {
+    width: 1020px;
+    height: 76px;
+    background-color: #2d303a;
+}
