@@ -11,18 +11,37 @@
     <main>
         <header>
             <h1>Get a Quote</h1>
-            <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+            <p class="header-info">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
         </header>
         <div class="submit">
-            <div class="submit-field"></div>
+            <div class="submit-field">
+                <form method="post">
+                    <input name="name" type="text" placeholder="Name (Required)" required>
+                    <input name="email" type="email" placeholder="Email (Required)" required>
+                    <input name="subject" type="text" placeholder="Subject">
+                    <textarea placeholder="Describe your project in detail..."></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <p>Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis.</p>
+                <div class="links">
+                    <p class="location"><img src="assets\location.png">Elm St. 14/05 Lost City</p>            
+                    <a href="tel:03528 331 86 3"><img src="assets\phone (1).png">03528 331 86 3</a>
+                    <a href="mailto:info@singolo.com"><img src="assets/mail.png">info@singolo.com</a>
+                </div>
+            </div>
         </div>
-        <div class="contact-info"></div>
     </main>
     <footer>
-        <p class="legal-info">
-            <img src="assets/© Copyright 2013 · by PSDchat.com.png">
-        </p>
-        <div class="social-network"></div>
+        <p class="legal-info">© Copyright 2013</p>
+        <div class="social-network">
+            <a href="#"><img src="assets\Facebook.png"></a>
+            <a href="#"><img src="assets\Google.png"></a>
+            <a href="#"><img src="assets\Twitter.png"></a>
+            <a href="#"><img src="assets\LinkedIn.png"></a>
+        </div>
     </footer>
     
 </body>

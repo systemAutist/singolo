@@ -9,10 +9,100 @@ main {
     background-color: #f06c64;
     border-bottom: 6px solid #ea676b;
 }
-
-
+header {
+    padding-top: 49px;
+    padding-left: 40px;
+}
+h1 {
+    font-size: 30px;
+    line-height: 18px;
+    color: #f0d8d9;
+    font-weight: 900;
+    text-align: left;
+}
+.header-info {
+    padding-top: 5px;
+    letter-spacing: 0px;
+    width: 940px;
+    height: 57px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #f0d8d9;
+    font-weight: 300;
+    text-align: left;
+}
+.submit {
+    display: flex;
+}
+.submit-field {
+    padding-top: 48px;
+    padding-left: 40px;
+}
+input, textarea {
+    width: 619px;
+    height: 38px;
+    border: none;
+    border-radius: 5px;
+    background-color: #d6564f;
+    margin-bottom: 10px;
+}
+::placeholder {
+    font-size: 12px;
+    line-height: 22px;
+    color: #f48c8f;
+    font-weight: 400;
+    text-align: left;
+}
+button {
+    width: 70px;
+    height: 30px;
+}
+textarea {
+    width: 615px;
+    height: 202px;
+    border-radius: 5px;
+    background-color: #d6564f;
+    resize: none;
+}
+.submit-field {
+    width: 650px;
+}
+.contact-info {
+    padding-top: 46px;
+    padding-left: 22px;
+}
+p {
+    padding-top: 10px;
+    font-size: 12px;
+}
+a {
+    font-size: 12px;
+}
+.links {
+    padding-top: 40px;
+}
+h3, p, a {
+    text-decoration: none;
+    color: #f0d8d9;
+    margin: 0;
+}
+.links {
+    display: flex;
+    flex-direction: column;
+}
 footer {
+    display: flex;
+    justify-content: space-between;
     width: 1020px;
     height: 76px;
     background-color: #2d303a;
+}
+.legal-info {
+    padding-top: 30px;
+    padding-left: 41px;
+    color: #666d89;
+}
+.social-network {
+    padding-top: 20px;
+    padding-right: 45px;
 }
