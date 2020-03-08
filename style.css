@@ -8,7 +8,7 @@ header {
     background-color: #2d303a;
     border-bottom: 6px solid #323746;
 }
-h1 {
+header h1 {
     font-size: 24px;
     font-weight: 400;
     color: #ffffff;
@@ -190,6 +190,7 @@ button {
     color: #666d89;
     border: 1px solid #666d89;
     border-radius: 5px;
+    cursor: pointer;
 }
 .portfolio-4-column-layout {
     display: flex;
@@ -253,17 +254,21 @@ h3 {
     font-weight: 400;
     text-align: left;
 }
+.social-network img {
+    cursor: pointer;
+}
+
 main {
     width: 1020px;
     height: 648px;
     background-color: #f06c64;
     border-bottom: 6px solid #ea676b;
 }
-header {
+.contact-header {
     padding-top: 49px;
     padding-left: 40px;
 }
-h1 {
+.contact-header h1 {
     font-size: 30px;
     line-height: 18px;
     color: #f0d8d9;
@@ -321,7 +326,7 @@ textarea {
     padding-top: 46px;
     padding-left: 22px;
 }
-p {
+.contact-info p {
     padding-top: 10px;
     font-size: 12px;
 }
@@ -331,7 +336,7 @@ a {
 .links {
     padding-top: 40px;
 }
-h3, p, a {
+.contact-info h3, .contact-info p, .contact-info a {
     text-decoration: none;
     color: #f0d8d9;
     margin: 0;
